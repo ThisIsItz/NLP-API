@@ -16,13 +16,16 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+API_ID = '66d8dfdd'
+API_KEY = 'bd4375a2f7c9e97e93f772922bab7084'
+
 var textapi = new aylien({
-    application_id: process.env.API_ID,
-    application_key: process.env.API_KEY
+    application_id: API_ID,
+    application_key: API_KEY
     });
 
 console.log(__dirname)
-console.log(`Your API key is ${process.env.API_KEY}`);
+console.log(`Your API key is ${API_KEY}`);
 
 
 app.get('/', function (req, res) {
