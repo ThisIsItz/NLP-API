@@ -3,11 +3,11 @@
 This is my fourth project for Front End Nanodegree, Udacity.
 For this project, I've built a News Article or Sentiment Analysis webs application using Natural Language Processing API. 
 
-![alt text](./img/nlporiginal)
+![NLP API Web App](./img/nlporiginal.png)
 
 The application allows users to type in any URL containing an article or a blog. Then, using Aylien API, the app analyses the sentiment of it through getting insight about the author's polarity and subjectivity, and the confidence in this analysis.
 
-![alt text](./img/nlpresults)
+![Results](./img/nlpresults.png)
 
 ## How to start
 
