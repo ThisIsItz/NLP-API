@@ -25,8 +25,6 @@ var textapi = new aylien({
     });
 
 console.log(__dirname)
-console.log(`Your API key is ${API_KEY}`);
-
 
 app.get('/', function (req, res) {
     res.sendFile('dist/index.html')
