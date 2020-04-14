@@ -1,7 +1,8 @@
 # Natural Language Processing API
 
 This is my fourth project for Front End Nanodegree, Udacity.
-For this project, I've built a News Article or Sentiment Analysis webs application using Natural Language Processing API. 
+
+For this project, I've built a News Article Sentiment Analysis webs application using Natural Language Processing API. 
 
 ![NLP API Web App](./img/nlporiginal.png)
 
